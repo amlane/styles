@@ -7,21 +7,19 @@
 ## Install
 
 ```bash
-npm install --save @amlane/styles
+npm i @amlane/styles
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import MyComponent from '@amlane/styles'
+import { Button } from "@amlane/styles";
 
 class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <Button text="Submit" style={{color: "pink", ...}} />;
   }
 }
 ```

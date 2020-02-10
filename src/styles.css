@@ -6,3 +6,18 @@
   border: 2px solid #000;
   font-size: 2em;
 }
+
+.btn {
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  background: #1a71b1;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(20, 102, 160);
+}

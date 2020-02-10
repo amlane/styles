@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from '@amlane/styles'
+import { Button } from "@amlane/styles";
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        {/* <ExampleComponent text="Modern React component module" /> */}
+        <Button text="Hello" style={{ color: "silver" }} />
       </div>
-    )
+    );
   }
 }
