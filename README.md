@@ -2,7 +2,7 @@
 
 > a component based design system
 
-[![NPM](https://img.shields.io/npm/v/styles.svg)](https://www.npmjs.com/package/styles) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/styles.svg)](https://www.npmjs.com/package/@amlane/styles) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -13,15 +13,25 @@ npm install --save styles
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import MyComponent from 'styles'
+import { ExampleComponent, Button } from "styles";
 
-class Example extends Component {
-  render () {
+export default class App extends Component {
+  render() {
     return (
-      <MyComponent />
-    )
+      <div>
+        <ExampleComponent text="Modern React component module" />
+        <Button
+          text="Hello"
+          background="papayawhip"
+          color="palevioletred"
+          square
+        />
+        <Button text="Goodbye" variant="primary" />
+        <Button text="Delete" variant="outline-danger" rounded />
+      </div>
+    );
   }
 }
 ```

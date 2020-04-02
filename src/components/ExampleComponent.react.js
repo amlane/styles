@@ -11,6 +11,6 @@ export default class ExampleComponent extends Component {
   render() {
     const { text } = this.props;
 
-    return <div className={styles.test}>Example Component: {text}</div>;
+    return <div className={styles.test}>Stylish Components: {text}</div>;
   }
 }
