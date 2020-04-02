@@ -7,8 +7,15 @@ export default class App extends Component {
     return (
       <div>
         <ExampleComponent text="Modern React component module" />
-        <Button text="Hello" bgColor="purple" rounded />
-        <Button text="Goodbye" />
+        <Button
+          text="Hello"
+          variant="success"
+          background="papayawhip"
+          color="palevioletred"
+          square
+        />
+        <Button text="Goodbye" variant="primary" />
+        <Button text="Submit" variant="outline-danger" rounded />
       </div>
     );
   }
