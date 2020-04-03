@@ -4,11 +4,9 @@ import styled from "@emotion/styled";
 import { ThemeProvider } from "emotion-theming";
 import { defaultTheme } from "../themes/theme";
 
-import styles from "../styles.css";
-
 const StyledButton = styled.button`
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 25px;
   margin: 10px;
   cursor: pointer;
   transition: 0.2s ease-in;
